@@ -1,0 +1,87 @@
+*{
+padding: 0;
+margin: 0;
+}
+
+li {
+list-style: none;
+}
+
+.header {
+height: 65px;
+border-bottom: 1px solid #dddddd; /* why border-bottom doesn't work in Kenya_index.php? */
+}
+
+.header-left {
+ float: left;
+ font-size: 30px;
+ color: #ff0000;
+ padding: 20px 30px
+}
+
+.header-right li {
+float: right;
+font-size: 18px;
+padding: 20px 30px;
+}
+
+.main {
+clear: both;
+height: 450px;
+}
+
+.contact-form{
+width: 70%;
+margin: 60px auto;
+padding: 70px;
+background-color: #F5F5F5;
+color: #333;
+}
+
+.form-title{
+text-align: center;
+font-size: 25px;
+font-weight:bold;
+}
+
+input[type = "text"]{
+height: 15px;
+}
+
+
+/* 以下のやり方か
+ input[type = "text"]{
+height: 15px;
+}
+
+もしくはinput="text"が多数ある場合はclassを設定して
+.input-name {
+height:15px;
+}
+
+.input-email {
+height:15px;
+}
+*/
+
+textarea {
+width: 95%;
+height: 80px;
+}
+
+input[type = "submit"] {
+  text-align: center;
+  height: 60px;
+  width: 100px;
+  font-size: 50px;
+  margin-top:20px;
+  margin-left: 430px;
+
+}
+
+
+.footer {
+clear: both;
+height: 200px;
+background-color: #00c000;
+}
